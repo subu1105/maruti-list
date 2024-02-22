@@ -1,0 +1,182 @@
+input {
+  width: 120px;
+  height: 25px;
+}
+.stock-sheet-top {
+  text-align: center;
+  background-color: rgb(6, 6, 128);
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+.stock-sheet-container {
+  display: flex;
+  padding: 10px;
+  overflow: auto;
+}
+
+.sheet-1-heading {
+  text-align: center;
+  border: 1px solid #aab1c1;
+  border-radius: 5px;
+}
+.sheet-1-heading p {
+  margin: 0;
+  border-radius: 2px;
+  color: #3c4461;
+  font-weight: 500;
+}
+.sheet-1-list {
+  background-color: #cbd8e3;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+
+  margin: 40px 0px 10px;
+}
+.sheet-1-list p {
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.sheet-1 button {
+  background-color: #555f80;
+  /* height: 35px; */
+  width: 100%;
+  color: white;
+  padding: 3px;
+}
+.sheet-2 {
+  position: relative;
+  border: 1px solid #aab1c1;
+  border-radius: 10px;
+  margin: 13px 10px;
+  width: 16%;
+}
+.sheet-2-heading {
+  border: 1px solid #aab1c1;
+  width: 94%;
+  text-align: center;
+  border-radius: 8px;
+  position: absolute;
+  top: -15px;
+  margin: 0px 5px;
+  background-color: white;
+  padding: 2px;
+}
+.sheet-2-input-name {
+  margin-top: 10px;
+}
+.sheet-2-input-name {
+  font-size: 12px;
+}
+.sheet-2-heading p {
+  margin: 0;
+  font-size: 12px;
+  color: #3c4461;
+  font-weight: 600;
+}
+.box {
+  margin-right: 30px;
+}
+.sheet-2 p {
+  color: #3c4461;
+  font-weight: 600;
+}
+.sheet-2 input {
+  margin: 0px 5px 10px;
+  border-radius: 7px;
+  border: 1px solid #aab1c1;
+  width: 66px;
+  outline: none;
+  text-align: center;
+}
+.input-box {
+  margin-top: 5px;
+}
+.input-bg-color input {
+  background-color: #cbd8e3;
+  border: none;
+}
+.input-bg-color input::placeholder {
+  color: #344068;
+}
+
+.sheet-2-heading-update {
+  border: none;
+  width: 62%;
+  margin: 0px 32px;
+  padding-top: 4px;
+}
+.sheet-6-heading {
+  position: absolute;
+  top: -10px;
+  font-size: 12px;
+}
+.sheet-6-heading p {
+  background-color: white;
+  color: #3c4461;
+  font-weight: 600;
+}
+.sheet-6-heading .heading-line {
+  margin-right: 42px;
+}
+
+.sheet-7 {
+  width: 18%;
+}
+.input-name-update {
+  margin-top: 8px;
+}
+.input-name-update p {
+  margin: 0;
+  font-size: 9px;
+  text-align: center;
+  color: #3c4461;
+  font-weight: 600;
+}
+.input-name-update div {
+  width: 71px;
+}
+.discount {
+  width: 40%;
+  margin: 0px 70px;
+}
+.sheet-8 {
+  width: 18%;
+  border: none;
+}
+.last-box p {
+  margin: 4px 0px 19px;
+  font-size: 12px;
+  color: #3c4461;
+  font-weight: 600;
+}
+.stock-sheet-bottom {
+  gap: 5px;
+  margin-top: 10px;
+}
+.stock-sheet-bottom .button-1 {
+  border: 2px solid #1f2d89;
+  padding: 3px 32px;
+}
+.stock-sheet-bottom .button-1:focus {
+  box-shadow: none;
+}
+.stock-sheet-bottom .button-2 {
+  background-color: #1f2d89;
+  color: white;
+  padding: 4px 32px;
+}
+.stock-sheet-bottom .button-2:focus {
+  box-shadow: none;
+}
+.stock-sheet-bottom .button-2:hover {
+  color: white;
+}
+.sheet-1 .btn-total:focus {
+  box-shadow: none;
+}
+.sheet-1 .btn-total:hover {
+  color: white;
+}

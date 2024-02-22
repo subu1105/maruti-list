@@ -1,0 +1,119 @@
+.new-car-header {
+  text-align: center;
+  background-color: rgb(6, 6, 128);
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+.new-car-container input {
+  width: 110px;
+  border-radius: 5px;
+  border: 1px solid #aab1c1;
+  height: 25px;
+  margin-bottom: 5px;
+}
+.particular-box-a {
+  width: 40%;
+}
+
+.quantity-box {
+  width: 20%;
+}
+.amount-box-a {
+  width: 20%;
+}
+.income-box-a {
+  width: 20%;
+}
+
+.particular-box-a p.line-double {
+  height: 35px;
+  margin-bottom: 12px;
+}
+.new-car-container input.line-double {
+  height: 35px;
+  margin-bottom: 12px;
+}
+.particular-box-a p.line-triple {
+  height: 40px;
+  margin-bottom: 10px;
+}
+.new-car-container input.line-triple {
+  height: 40px;
+  margin-bottom: 10px;
+}
+.particular-box-a p {
+  font-size: 12px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.input-hide {
+  visibility: hidden;
+}
+.particular-box-b {
+  width: 60%;
+}
+.particular-box-b p {
+  font-size: 12px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.amount-box-b {
+  width: 20%;
+}
+.income-box-b {
+  width: 20%;
+}
+
+.new-car-container input.niput-bg-color {
+  background-color: #cbd8e3;
+  border: none;
+}
+.same-width {
+  width: 49% !important;
+  border-radius: 10px;
+  border: 1px solid #cbd8e3;
+  padding: 10px;
+}
+.stock-sheet-bottom {
+  gap: 5px;
+  margin: 10px 0px;
+}
+.stock-sheet-bottom .button-1 {
+  border: 2px solid #1f2d89;
+  padding: 3px 32px;
+}
+.stock-sheet-bottom .button-1:focus {
+  box-shadow: none;
+}
+.stock-sheet-bottom .button-2 {
+  background-color: #1f2d89;
+  color: white;
+  padding: 4px 32px;
+}
+.stock-sheet-bottom .button-2:focus {
+  box-shadow: none;
+}
+.stock-sheet-bottom .button-2:hover {
+  color: white;
+  border: 2px solid #1f2d89;
+}
+.sheet-1 .btn-total:focus {
+  box-shadow: none;
+}
+.sheet-1 .btn-total:hover {
+  color: white;
+}
+.new-car-btn {
+  gap: 5px;
+}
+.new-car-btn .button-1 {
+  border: 2px solid #1f2d89;
+  padding: 2px 32px;
+  height: 34px;
+}

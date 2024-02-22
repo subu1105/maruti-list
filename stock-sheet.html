@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stock-sheet.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="stock-sheet-main-countainer">
+      <div class="stock-sheet-top">
+        <p>Stock Sheet</p>
+      </div>
+
+      <div class="stock-sheet-container">
+        <div class="d-flex flex-column align-items-center sheet-1">
+          <div class="w-100 sheet-1-heading">
+            <p>Model</p>
+          </div>
+          <div class="sheet-1-list">
+            <p>ALTO K10</p>
+            <p>SPRESSO</p>
+            <p>CELERIO</p>
+            <p>WAGON-R</p>
+            <p>SWIFT</p>
+            <p>DZIRE(Inc Tour)</p>
+            <p>BREZZA</p>
+            <p>ERTIGA</p>
+            <p>EECO</p>
+            <p class="mb-0">SUPER CARRY</p>
+          </div>
+          <button class="btn btn-total">Total</button>
+        </div>
+        <div class="sheet-2 d-flex flex-column">
+          <div class="sheet-2-heading">
+            <p>OPENING STOCK</p>
+          </div>
+
+          <div class="d-flex w-100 justify-content-center sheet-2-input-name">
+            <div class="box"><p>Quantity</p></div>
+            <div><p>Amount</p></div>
+          </div>
+          <div class="input-box">
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100 input-bg-color">
+              <div><input type="text" placeholder="0" /></div>
+              <div><input type="text" placeholder="0" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="sheet-2 sheet-3 d-flex flex-column">
+          <div class="sheet-2-heading">
+            <p>WHOLESALE</p>
+          </div>
+
+          <div class="d-flex w-100 justify-content-center sheet-2-input-name">
+            <div class="box"><p>Quantity</p></div>
+            <div><p>Amount</p></div>
+          </div>
+          <div class="input-box">
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex input-bg-color w-100">
+              <div><input type="text" placeholder="0" /></div>
+              <div><input type="text" placeholder="0" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="sheet-2 sheet-4 d-flex flex-column">
+          <div class="sheet-2-heading sheet-2-heading-update">
+            <p>CLOSING STOCK</p>
+          </div>
+
+          <div class="d-flex w-100 justify-content-center sheet-2-input-name">
+            <div class="box"><p>Quantity</p></div>
+            <div><p>Amount</p></div>
+          </div>
+          <div class="input-box">
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100 input-bg-color">
+              <div><input type="text" placeholder="0" /></div>
+              <div><input type="text" placeholder="0" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="sheet-2 sheet-5 d-flex flex-column">
+          <div class="sheet-2-heading sheet-2-heading-update">
+            <p>RETAIL SALES</p>
+          </div>
+
+          <div class="d-flex w-100 justify-content-center sheet-2-input-name">
+            <div class="box"><p>Quantity</p></div>
+            <div><p>Amount</p></div>
+          </div>
+          <div class="input-box">
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100 input-bg-color">
+              <div><input type="text" placeholder="0" /></div>
+              <div><input type="text" placeholder="0" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="sheet-2 sheet-6 d-flex flex-column">
+          <div class="d-flex w-100 justify-content-center sheet-6-heading">
+            <div class="heading-line"><p>MARGIN</p></div>
+            <div><p>DRF</p></div>
+          </div>
+
+          <div class="d-flex w-100 justify-content-center sheet-2-input-name">
+            <div class="box"><p>Quantity</p></div>
+            <div><p>Amount</p></div>
+          </div>
+          <div class="input-box">
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div><input type="text" /></div>
+            </div>
+            <div class="d-flex w-100 input-bg-color">
+              <div><input type="text" placeholder="0" /></div>
+              <div><input type="text" placeholder="0" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="sheet-2 sheet-7 d-flex flex-column">
+          <div class="sheet-2-heading sheet-2-heading-update discount">
+            <p>DISCOUNT</p>
+          </div>
+
+          <div
+            class="d-flex w-100 align-items-center justify-content-center sheet-2-input-name input-name-update"
+          >
+            <div>
+              <p>Consumer Offer +ISL/RMK+ Exchange Bonus</p>
+            </div>
+            <div><p>Dealer Compulsion Discount</p></div>
+            <div><p>Total Discount</p></div>
+          </div>
+          <div class="input-box mt-0">
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div><input type="text" /></div>
+              <div><input type="text" /></div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" placeholder="0" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sheet-2 sheet-8 d-flex flex-column">
+          <div
+            class="d-flex w-100 align-items-center justify-content-center sheet-2-input-name input-name-update last-box"
+          >
+            <div>
+              <p>Margin/Car</p>
+            </div>
+            <div><p>DRF/Car</p></div>
+            <div><p>Discount/Car</p></div>
+          </div>
+          <div class="input-box mt-0">
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="d-flex w-100">
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+              <div class="input-bg-color">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-end stock-sheet-bottom">
+        <button class="button-1 btn">Back</button>
+        <button class="button-1 btn">Cancel</button>
+        <button class="button-2 btn">Save</button>
+      </div>
+    </div>
+  </body>
+</html>
