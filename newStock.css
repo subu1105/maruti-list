@@ -1,0 +1,76 @@
+input {
+  width: 120px;
+  height: 25px;
+}
+.stock-sheet-top {
+  text-align: center;
+  background-color: rgb(6, 6, 128);
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+.stock-sheet-container {
+  padding: 10px;
+  overflow: auto;
+}
+
+.sheet-1-heading {
+  text-align: center;
+  border: 1px solid #aab1c1;
+  border-radius: 5px;
+}
+.sheet-1-heading p {
+  margin: 0;
+  border-radius: 2px;
+  color: #3c4461;
+  font-weight: 500;
+}
+.sheet-1-list {
+  background-color: #cbd8e3;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  margin: 40px 0px 10px;
+}
+.sheet-1-list p {
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.sheet-1 button {
+  background-color: #555f80;
+  /* height: 35px; */
+  width: 100%;
+  color: white;
+  padding: 3px;
+}
+
+input {
+  margin: 0px 5px 10px;
+  border-radius: 7px;
+  border: 1px solid #aab1c1;
+  width: 85px;
+  outline: none;
+  text-align: center;
+}
+.input-field td {
+  margin-right: 10px;
+}
+table {
+  width: 90%;
+}
+.input-bg-color {
+  background-color: #cbd8e3;
+  border: none;
+}
+.input-field .box-space {
+  margin-right: 10px;
+}
+
+.table-headding {
+  font-size: 12px;
+  text-align: center;
+}
+.left-table td {
+  line-height: 25px;
+}
